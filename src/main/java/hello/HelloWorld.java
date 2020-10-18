@@ -10,9 +10,5 @@ public class HelloWorld {
 
         Greeter greeter = new Greeter();
         System.out.println(greeter.sayHello());
-	Scanner in = new Scanner(System.in);
-        System.out.println("Enter some number: ");
-        int input = in.nextInt();
-        System.out.println("Your input is: " + input);
     }
 }
